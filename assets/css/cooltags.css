@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+.tagdecorator {
+	display: block;
+	max-height: 170px;
+	overflow: auto;
+	border: 1px dashed silver;
+	background: #fff;
+	margin: 4px 4px 0px 0px;
+	min-height: 26px;
+}
+
+.tags_container {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.tags_container li {
+	display: block;
+	float: left;
+	list-style-type: none;
+}
+
+.tags_container .cooltag {
+	border: 1px solid silver;
+	padding: 4px 1px 3px 6px;
+	background: url(../images/tag_blue_delete.png) #f9f9f9 no-repeat 100%
+		50%;
+	margin: 2px;
+}
+
+.tags_container .deletecooltag {
+	display: block;
+	width: 18px;
+	height: 13px;
+	float: right;
+	margin-left: 5px;
+	outline: none;
+}
+
+.entry_input_container {
+	display: block;
+	margin-top: 10px;
+}
+
+.autocomplete-w1 {
+	background: url(../images/shadow.png) no-repeat bottom right;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 6px 0 0 6px; /* IE6 fix: */
+	_background: none;
+	_margin: 1px 0 0 0;
+}
+
+.autocomplete {
+	border: 1px solid silver;
+	background: #ffffdd;
+	cursor: default;
+	text-align: left;
+	max-height: 350px;
+	overflow: auto;
+	margin: -6px 6px 6px -6px; /* IE6 specific: */
+	_height: 350px;
+	_margin: 0;
+	_overflow-x: hidden;
+}
+
+.autocomplete .selected {
+	background: #ffdd99;
+}
+
+.autocomplete div {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.autocomplete strong {
+	color: #3399FF;
+}
